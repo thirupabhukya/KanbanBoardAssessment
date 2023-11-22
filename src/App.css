@@ -1,0 +1,75 @@
+/* Global styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Kanban board styles */
+.kanban-board {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Kanban board column styles */
+.kanban-board-column {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.kanban-board-column h2 {
+  margin-bottom: 10px;
+}
+
+/* Kanban board card styles */
+.kanban-board-card {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid gray;
+}
+
+/* Kanban board card priority colors */
+.kanban-board-card.urgent {
+  background-color: red;
+}
+
+.kanban-board-card.high {
+  background-color: orange;
+}
+
+.kanban-board-card.medium {
+  background-color: yellow;
+}
+
+.kanban-board-card.low {
+  background-color: green;
+}
+
+.kanban-board-card.no-priority {
+  background-color: blue;
+}
+
+/* Kanban board sidebar styles */
+.kanban-board-sidebar {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.kanban-board-sidebar button {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid gray;
+}
+
+.kanban-board-sidebar button.active {
+  background-color: #eee;
+}
